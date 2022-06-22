@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <script type="text/javascript">function loggingHead() { console.log("script inside head tag")}</script>
+    </head>
+    <body>
+        <!-- <script type="text/javascript">alert("Hello JavaScript!")</script> -->
+        <script type="text/javascript">function loggingBody() { console.log("script inside body tag")}</script>
+        <button onclick=loggingBody()>Click Me(script inside body tag)</button>
+        <button onclick=loggingHead()>Click Me(script inside head tag)</button>
+        <input type="button" value="cli" onclick="loggingBody()"/>
+    </body>
+</html>
